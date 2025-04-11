@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div className="app">
-        <BrowserRouter>
-            <Header />
+        <BrowserRouter basename="/youtube-clone">
+          <Header />
           <Routes>
             <Route
               path="/search/:searchTerm"
